@@ -1,0 +1,16 @@
+.Button-enviar {
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    width: 50%;
+    height: 50px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    margin: 7px;
+    color:#ccc;
+    background-color: #1e290a;
+    font-size: 30px;
+    font-weight: bold;
+  
+  
+  }

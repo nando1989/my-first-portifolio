@@ -1,0 +1,244 @@
+
+.center{
+  display: flex; 
+  align-items: center;
+  justify-content:flex-start;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0);
+  border: #000000 solid 2px;
+  width: 80%;
+  height:2980px;
+  color:white;
+}
+.mainHome{
+  display: flex;
+  flex-direction: row;
+  width:100%;
+  height:3550px;
+
+
+}
+.space{
+  width: 20%;
+  height: 1010px;
+}
+
+.mainCenter1{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 830px;
+
+}
+
+.main1 {
+  width: 550px;
+  height: 530px;
+  display: flex; 
+  justify-content:space-evenly;
+  flex-direction: column;
+  
+}
+.main2 {
+  width: 550px;
+  height: 530px;
+  display: flex; 
+  align-items: center;
+  justify-content:space-around;
+  flex-direction: column;
+  padding: 30px;
+  margin-top: 20px;
+}
+.container-text-home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 1900px;
+  background-repeat:no-repeat;
+  background-size: cover;
+  background-image:  url(./backgroundHome.png);
+}
+.typed{
+  font-weight: 600;
+  animation: typed 4s steps(30, end) infinite, blink 0.75s step-end infinite;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 6rem;
+  overflow-wrap: break-word; /* Quebra palavras longas em uma nova linha (alternativa) */
+  white-space: nowrap; /* Evita que o texto quebre em múltiplas linhas */
+  overflow: hidden; /* Esconde o texto que ultrapassa o container */
+  border-right: 2px solid; /* Simula o cursor */
+  width: 0; /* Inicialmente a largura é zero */
+  height: 120px;
+}
+
+
+@keyframes typed {
+            0% { width: 0; }      /* Inicia com largura zero */
+            70% { width: 100%; }  /* Chega a 100% em 70% do tempo */
+            90% { width: 100%; }  /* Mantém 100% por um breve período */
+            100% { width: 10%; }    /* Volta a zero, reiniciando a animação */
+}
+@keyframes blink {
+  from { border-color: transparent; }
+  to { border-color: black; }
+}
+
+.text-home{
+  width: 90%;
+  height: 300px;
+  display: flex; 
+  align-items: center;
+  justify-content:space-around;
+  flex-direction: column; 
+  text-align: center;
+  margin-left: 25px;
+  font-family:cursive
+}
+
+.botao-contato{
+  border-radius: 30px;
+  width: 15rem;
+  height: 4rem;
+  border: solid 3px rgb(255, 230, 0);
+  color: rgb(255, 230, 0);
+  font-size: 30px;
+  background-color: transparent;
+  font-weight:bolder;
+  font-family:cursive;
+}
+.botao-contato:hover{
+  border-radius: 30px;
+  width: 15rem;
+  height: 4rem;
+  border: solid 2px rgb(212, 156, 2);
+  color:rgb(20, 19, 19);
+  font-size: 30px;
+  background-color:rgb(255, 230, 0);
+  font-weight:bolder;
+  font-family:cursive;
+}
+
+
+
+.fotografo {
+  width: 70%;
+  height: 430px;
+
+}
+
+.topo {
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  width: 1100px;
+  color:white;
+  padding-top: 10px;
+  
+  
+} 
+.top1{
+  display: flex; 
+  align-items: center;
+  justify-content: flex-end;
+  height: 70px;
+  width: 160px;
+  padding-right: 30px;
+}
+.top2{
+  display: flex; 
+  align-items: center;
+  justify-content: flex-start;
+  height: 70px;
+  width: 80px;
+  padding-left: 20px;
+}
+.navbar {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 600px;
+  height: 70px;
+  color:white;
+
+  
+}
+
+.zap{
+  width: 150px;
+  height: 70px;
+  display: flex; 
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+.main1 {
+  width: 510px;
+  height: 510px;
+  display: flex; 
+  align-items: center;
+  justify-content:space-around;
+  flex-direction: column; 
+}
+
+.main2 {
+  width: 510px;
+  height: 510px;
+}
+
+@media (max-width: 768px) {
+  .main {
+    width: 90%;
+    height: 850px;
+  }
+  .center {display: flex; 
+  align-items: top;
+  justify-content:top;
+  flex-direction: column;
+  background-color: black;
+  background-repeat:round;
+  width: 90%;
+  height:850px;
+  border:1px 	#000000;
+  border-style: groove;
+  border-color: rgb(18, 184, 32);
+  color:white;
+  border-radius: 26px;
+  }
+  .container-text-home{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 730px;
+  
+  
+  }
+
+  .text-home{
+    width: 85%;
+    height: 380px;
+    display: flex; 
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column; 
+    text-align: center;
+  }
+
+  .mainImg {
+    width: 85%;
+    height: 410px;
+    display: flex; 
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column; 
+  }
+  .imgPerfil {
+    width: 85%;
+    height: 60px;
+  }
+}
