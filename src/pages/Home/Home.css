@@ -67,7 +67,7 @@
 .typed{
   font-weight: 600;
   animation: typed 4s steps(30, end) infinite, blink 0.75s step-end infinite;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Courier New';
   font-size: 6rem;
   overflow-wrap: break-word; /* Quebra palavras longas em uma nova linha (alternativa) */
   white-space: nowrap; /* Evita que o texto quebre em múltiplas linhas */
