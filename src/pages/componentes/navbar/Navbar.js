@@ -3,9 +3,16 @@ import './Navbar.css';
 import { Link } from 'react-router-dom';
 import Perfil from './perfil.jpg'
 import Footer from '../footer';
+import React, { useState } from 'react'
 
 
-function Navbar() {
+const Navbar = () => {
+   const [showMenu, setShowMenu] = useState(false)
+   const toggleMenu = () => {
+     setShowMenu(!showMenu)
+   }
+
+   
    return (
       <>
          <div className='container-navbar'>

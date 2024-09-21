@@ -8,10 +8,10 @@ const Sobre = () => {
 
       <div className="center-sobre">
         <h2>Sobre mim</h2>
-        <div className='borda'></div>
+        <div className='borda-sobre'></div>
       </div>
 
-      <div className='my-title'>
+      <div className='myTitle'>
         <h2>Olá, Eu me chamo Fernando de Souza, desenvolvedor FrontEnd.</h2>
       </div>
 
