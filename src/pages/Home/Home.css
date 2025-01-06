@@ -1,4 +1,7 @@
 
+@import url('http://fonts.googleapis.com/css2?family-lato:wght@300;400;700;&display=swap');
+
+
 .center{
   display: flex; 
   align-items: center;
@@ -8,6 +11,7 @@
   width: 80%;
   height:2980px;
   color:white;
+  font-family: lato;
 }
 .main-home{
   display: flex;
@@ -23,7 +27,7 @@
   width: 100%;
 }
 .space{
-  width: 400px;
+  width: 350px;
   height: 1010px;
 }
 
@@ -64,17 +68,19 @@
   background-size: cover;
   background-image:  url(./backgroundHome.png);
 }
+
 .typed{
   font-weight: 600;
+  
+  margin-bottom: 10px;
   animation: typed 4s steps(30, end) infinite, blink 0.75s step-end infinite;
-  font-family: 'Courier New';
   font-size: 6rem;
   overflow-wrap: break-word; /* Quebra palavras longas em uma nova linha (alternativa) */
   white-space: nowrap; /* Evita que o texto quebre em múltiplas linhas */
   overflow: hidden; /* Esconde o texto que ultrapassa o container */
   border-right: 2px solid; /* Simula o cursor */
   width: 0; /* Inicialmente a largura é zero */
-  height: 120px;
+  height: 150px;
 }
 
 
@@ -97,7 +103,7 @@
   justify-content:space-around;
   flex-direction: column; 
   text-align: center;
-  font-family:cursive
+  font-family:cursive;
 }
 
 
@@ -225,6 +231,7 @@
     height: 1100px;
     justify-content: space-around;
     align-items: center;
+    font-family: lato;
   }
   
   .space{
@@ -247,7 +254,6 @@
     flex-direction: column;
     color: rgb(230, 230, 230);
     font-size: 13px;
-    font-family:cursive;
     
     
   
@@ -302,7 +308,7 @@
   justify-content:center;
   flex-direction: column; 
   text-align: center;
-  font-family:cursive
+  font-family:lato
   }
 
   .text-home-resp h1{
